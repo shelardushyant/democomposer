@@ -1,0 +1,17 @@
+{
+    "name": "dshelar/democomposer",
+    "description": "this is my personal demo composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dushanta Shelar",
+            "email": "shelardushyant@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-4": {"dshelar\\democomposer\\": "src/"}
+    },
+	"require": {}
+}
